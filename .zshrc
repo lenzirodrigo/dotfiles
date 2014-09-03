@@ -80,6 +80,44 @@ source $ZSH/oh-my-zsh.sh
 
 OS=$(uname)
 if [[ "$OS" == 'Linux' ]]; then
+alias open=xdg-open
+alias mvn=mvn-color
+alias ll='ls -lhtr'
+
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/java/bin:/opt/java/db/bin:/opt/java/jre/bin:/usr/bin/core_perl:/usr/lib/qt4/bin:/usr/local/bin:/home/rodrigo/Development/Notes/scripts
+
+# MAVEN
+export M2_HOME=/home/rodrigo/Development/apache-maven-3.0.5
+export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=256m -Djava.io.tmpdir=/tmp"
+export M2=$M2_HOME/bin
+export PATH=$M2:$PATH
+
+# JAVA
+export JAVA_HOME=/home/rodrigo/Development/java/jdk1.7.0_25
+export PATH=$JAVA_HOME/bin:$PATH
+export JAVA_OPTS="-Xmx1024m -XX:MaxPermSize=256m" 
+
+# Ruby
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# ENGAGE
+
+export TimeOut=20
+#export deploy_type=TEST
+export JPDA_ADDRESS=8000
+export JPDA_TRANSPORT=dt_socket
+export use_mock=YES
+
+#Scala
+#SBT
+PATH=$PATH:/home/rodrigo/Development/scala/sbt/bin
+
+#Skype
+# export PULSE_LATENCY_MSEC=60
+
+archey
+
 elif [[ "$OS" == 'Darwin' ]]; then
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
