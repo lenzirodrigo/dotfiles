@@ -78,6 +78,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+OS=$(uname)
+if [[ "$OS" == 'Linux' ]]; then
+elif [[ "$OS" == 'Darwin' ]]; then
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
@@ -90,3 +93,5 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 # POSTGRES
 export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
+fi
+
