@@ -95,7 +95,7 @@ export PATH=$M2:$PATH
 # JAVA
 export JAVA_HOME=/home/rodrigo/Development/java/jdk1.7.0_25
 export PATH=$JAVA_HOME/bin:$PATH
-export JAVA_OPTS="-Xmx1024m -XX:MaxPermSize=256m" 
+export JAVA_OPTS="-Xmx2048m -XX:MaxPermSize=256m -Djava.io.tmpdir=/tmp" 
 
 # Ruby
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
