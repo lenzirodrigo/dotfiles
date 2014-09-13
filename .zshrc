@@ -124,10 +124,12 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # MVN
 export PATH=~/Development/bin/apache-maven-3.2.3/bin:$PATH
+export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 
 # JAVA
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 export PATH=$JAVA_HOME/bin:$PATH
+export JAVA_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 
 # POSTGRES
 export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
