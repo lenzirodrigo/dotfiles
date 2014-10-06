@@ -1,0 +1,70 @@
+#define base00 #000000
+#define base01 #191919
+#define base02 #323232
+#define base03 #646564
+#define base04 #969896
+#define base05 #c0c1c0
+#define base06 #d5d5d5
+#define base07 #eaeaea
+#define base08 #d54e53
+#define base08 #d54e53
+#define base09 #e78c45
+#define base0A #e7c547
+#define base0B #b9ca4a
+#define base0C #70c0b1
+#define base0D #7aa6da
+#define base0E #c397d8
+#define base0F #734622
+#define base08d #c82829
+#define base0Ad #eab700
+#define base0Bd #718c00
+#define base0Cd #3e999f
+#define base0Dd #4271ae
+#define base0Ed #8959a8
+
+*.foreground:   base05
+*.background:   base00
+*.cursorColor:  base05
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+*.color8:       base03
+*.color9:       base08d
+*.color10:      base0Bd
+*.color11:      base0Ad
+*.color12:      base0Dd
+*.color13:      base0Ed
+*.color14:      base0Cd
+*.color15:      base07
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06
+
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+URxvt.font: xft:Monaco:pixelsize=12
+
+URxvt*.cursorBlink:true
+URxvt*.pointerBlank:true
+URxvt*.fading:20
+URxvt*.fadeColor:black
+URxvt*.scrollBar:False
+URxvt*.internalBorder:0
+URxvt*.externalBorder:0
+! URxvt*.urgentOnBell: true
+URxvt*.saveLines: 65000
+URxvt*.transparent: true
