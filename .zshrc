@@ -81,7 +81,6 @@ source $ZSH/oh-my-zsh.sh
 OS=$(uname)
 if [[ "$OS" == 'Linux' ]]; then
 alias open=xdg-open
-alias mvn=mvn-color
 alias ll='ls -lhtr'
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/java/bin:/opt/java/db/bin:/opt/java/jre/bin:/usr/bin/core_perl:/usr/lib/qt4/bin:/usr/local/bin:/home/rodrigo/Development/Notes/scripts
