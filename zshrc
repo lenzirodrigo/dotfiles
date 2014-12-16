@@ -80,13 +80,15 @@ source $ZSH/oh-my-zsh.sh
 
 # Temporal fix https://github.com/robbyrussell/oh-my-zsh/pull/3341
 unset GREP_OPTIONS
+export SAVEHIST=10000
+export HISTSIZE=10000
 
 OS=$(uname)
 if [[ "$OS" == 'Linux' ]]; then
 alias open=xdg-open
 alias ll='ls -lhtr'
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/java/bin:/opt/java/db/bin:/opt/java/jre/bin:/usr/bin/core_perl:/usr/lib/qt4/bin:/usr/local/bin:/home/rodrigo/Development/Notes/scripts
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/usr/lib/qt4/bin:/usr/local/bin
 
 # MAVEN
 export M2_HOME=/home/rodrigo/Development/apache-maven-3.0.5
@@ -95,8 +97,8 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 
 # JAVA
-export JAVA_HOME=/home/rodrigo/Development/java/jdk1.7.0_25
-export PATH=$JAVA_HOME/bin:$PATH
+#export JAVA_HOME=/home/rodrigo/Development/java/jdk1.7.0_25
+#export PATH=$JAVA_HOME/bin:$PATH
 export JAVA_OPTS="-Xmx2048m -XX:MaxPermSize=256m -Djava.io.tmpdir=/tmp" 
 
 # CONNECT 
