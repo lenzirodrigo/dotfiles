@@ -45,5 +45,3 @@ PATH=$PATH:/home/rodrigo/Development/scala/sbt/bin
 
 #Skype
 # export PULSE_LATENCY_MSEC=60
-
-archey
