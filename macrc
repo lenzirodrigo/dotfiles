@@ -12,3 +12,6 @@ export JAVA_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 
 # POSTGRES
 export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
+
+# DOCKER
+export  DOCKER_HOST=tcp://192.168.59.103:2375
