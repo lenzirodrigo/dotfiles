@@ -83,6 +83,8 @@ unset GREP_OPTIONS
 export SAVEHIST=10000
 export HISTSIZE=10000
 
+export PATH=$PATH:~/dotfiles/scripts
+
 OS=$(uname)
 if [[ "$OS" == 'Linux' ]]; then
 	source ~/dotfiles/linuxrc
