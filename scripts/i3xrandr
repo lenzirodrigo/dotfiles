@@ -1,0 +1,15 @@
+#!/bin/sh
+
+case "$1" in
+    no-ext)
+        xrandr --output VGA1 --off
+        ;;
+    ext-VGA)
+        xrandr --output VGA1 --mode 1920x1080 --right-of LVDS1
+	;;
+    *)
+        echo "Usage: $0 {no-ext|ext-VGA}"
+        exit 2
+esac
+
+exit 0
