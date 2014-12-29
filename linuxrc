@@ -22,9 +22,9 @@ export JAVA_OPTS="-Xmx2048m -XX:MaxPermSize=256m -Djava.io.tmpdir=/tmp"
 
 #CONNECT LOCAL
 
-export CASSANDRA_HOME=~/Development/apache-cassandra-2.1.0
-export CATALINA_HOME=~/Development/apache-tomcat-7.0.47
-export CATALINA_BASE=~/Development/apache-tomcat-7.0.47
+export CASSANDRA_HOME=~/Development/apache-cassandra-2.1.2
+export CATALINA_HOME=~/Development/apache-tomcat-7.0.57
+export CATALINA_BASE=~/Development/apache-tomcat-7.0.57
 #export CONNECT_HOME=~/Development/connect_home
 export CATALINA_OPTS="-Xmx4096M -XX:MaxPermSize=512M"
 
