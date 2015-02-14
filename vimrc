@@ -6,6 +6,4 @@ syntax on
  
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
- 
-" Allow hidden buffers, don't limit to 1 file per window/split
-set hidden
+set number
