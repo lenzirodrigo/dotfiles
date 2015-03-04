@@ -1,0 +1,13 @@
+#!/bin/bash
+FILE=$1
+
+if [ -f $FILE ];
+then
+   echo "Yes"
+   echo "Yes"
+   echo "#00FF00"
+else
+   echo "No"
+   echo "No"
+   echo "#FF0000"
+fi

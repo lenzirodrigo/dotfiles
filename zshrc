@@ -78,12 +78,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Temporal fix https://github.com/robbyrussell/oh-my-zsh/pull/3341
-unset GREP_OPTIONS
 export SAVEHIST=10000
 export HISTSIZE=10000
+export EDITOR=vim
 
 export PATH=$PATH:~/dotfiles/scripts
+
+function killTomcat() {
+	kill -9 $(ps -ef | grep '[t]omcat' | awk '{print $2}' | head -1)
+}
 
 OS=$(uname)
 if [[ "$OS" == 'Linux' ]]; then

@@ -68,3 +68,8 @@ URxvt*.externalBorder:0
 ! URxvt*.urgentOnBell: true
 URxvt*.saveLines: 65000
 URxvt*.transparent: true
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: defailt,clipboard
+
