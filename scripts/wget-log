@@ -1,0 +1,55 @@
+--2016-05-06 23:30:29--  http://i.imgur.com/RhlKASc.jpg%20data-domain=i.imgur.com%20data-rank=5%20%3E%3Cp%20class=parent%3E%3C/p%3E%3Cspan%20class=rank%3E5%3C/span%3E%3Cdiv%20class=midcol
+Resolving i.imgur.com (i.imgur.com)... 23.235.40.193
+Connecting to i.imgur.com (i.imgur.com)|23.235.40.193|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 92652 (90K) [image/jpeg]
+Saving to: ‘background.jpg’
+
+
+
+2016-05-06 23:30:31 (93.0 KB/s) - ‘background.jpg’ saved [92652/92652]
+
+--2016-05-06 23:30:31--  http://unvoted%20%3E%3Cdiv%20class=arrow/
+Resolving unvoted ><div class=arrow (unvoted ><div class=arrow)... failed: Name or service not known.
+wget: unable to resolve host address ‘unvoted ><div class=arrow’
+--2016-05-06 23:30:32--  http://up/
+Resolving up (up)... failed: Name or service not known.
+wget: unable to resolve host address ‘up’
+--2016-05-06 23:30:33--  http://login-required/
+Resolving login-required (login-required)... failed: Name or service not known.
+wget: unable to resolve host address ‘login-required’
+--2016-05-06 23:30:35--  http://access-required%20data-event-action=upvote%20role=button%20aria-label=upvote%20tabindex=0%20%3E%3C/div%3E%3Cdiv%20class=score
+Resolving access-required data-event-action=upvote role=button aria-label=upvote tabindex=0 >< (access-required data-event-action=upvote role=button aria-label=upvote tabindex=0 ><)... failed: Name or service not known.
+wget: unable to resolve host address ‘access-required data-event-action=upvote role=button aria-label=upvote tabindex=0 ><’
+--2016-05-06 23:30:35--  http://dislikes%3E63%3C/div%3E%3Cdiv%20class=score
+Resolving dislikes>63< (dislikes>63<)... failed: Name or service not known.
+wget: unable to resolve host address ‘dislikes>63<’
+--2016-05-06 23:30:36--  http://unvoted%3E64%3C/div%3E%3Cdiv%20class=score
+Resolving unvoted>64< (unvoted>64<)... failed: Name or service not known.
+wget: unable to resolve host address ‘unvoted>64<’
+--2016-05-06 23:30:37--  http://likes%3E65%3C/div%3E%3Cdiv%20class=arrow
+Resolving likes>65< (likes>65<)... failed: Name or service not known.
+wget: unable to resolve host address ‘likes>65<’
+--2016-05-06 23:30:38--  http://down/
+Resolving down (down)... failed: Name or service not known.
+wget: unable to resolve host address ‘down’
+--2016-05-06 23:30:39--  http://login-required/
+Resolving login-required (login-required)... failed: Name or service not known.
+wget: unable to resolve host address ‘login-required’
+--2016-05-06 23:30:40--  http://access-required%20data-event-action=downvote%20role=button%20aria-label=downvote%20tabindex=0%20%3E%3C/div%3E%3C/div%3E%3Ca%20class=thumbnail
+Resolving access-required data-event-action=downvote role=button aria-label=downvote tabindex=0 >< (access-required data-event-action=downvote role=button aria-label=downvote tabindex=0 ><)... failed: Name or service not known.
+wget: unable to resolve host address ‘access-required data-event-action=downvote role=button aria-label=downvote tabindex=0 ><’
+--2016-05-06 23:30:40--  http://may-blank/
+Resolving may-blank (may-blank)... failed: Name or service not known.
+wget: unable to resolve host address ‘may-blank’
+ href=http://i.imgur.com/RhlKASc.jpg ><img src=//b.thumbs.redditmedia.com/pgMVK4exFHHKzqN_e3sQNZykvbTiayIInvsy99vD51c.jpg width='70' height='70' alt=></a><div class=entry: Scheme missing.
+--2016-05-06 23:30:41--  http://unvoted%3E%3Cp%20class=title%3E%3Ca%20class=title/
+Resolving unvoted><p class=title><a class=title (unvoted><p class=title><a class=title)... failed: Name or service not known.
+wget: unable to resolve host address ‘unvoted><p class=title><a class=title’
+--2016-05-06 23:30:42--  http://may-blank/
+Resolving may-blank (may-blank)... failed: Name or service not known.
+wget: unable to resolve host address ‘may-blank’
+ href=http://i.imgur.com/RhlKASc.jpg: Scheme missing.
+FINISHED --2016-05-06 23:30:43--
+Total wall clock time: 13s
+Downloaded: 1 files, 90K in 1.0s (93.0 KB/s)

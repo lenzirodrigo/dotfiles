@@ -1,5 +1,6 @@
 alias open=xdg-open
 alias ll='ls -lhtr'
+alias ssh="TERM=xterm ssh"
 
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/usr/lib/qt4/bin:/usr/local/bin
 
